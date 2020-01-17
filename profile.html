@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 
 
-    <title>Home</title>
+    <title>Document</title>
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
     
@@ -194,12 +194,8 @@
         <ul class="sidebar-menu" data-widget="tree">
           <li class="header">MAIN NAVIGATION</li>
           
-          <li class="treeview">
-            <a href="../../dist/index.html">
-              <i class="fa fa-fw fa-home"></i> <span>Home</span>
-            </a>
-          </li>
-
+          <li><a href="index.html"><i class="fa fa-fw fa-home"></i>Home</a></li>
+          
           <li class="treeview">
             <a href="#">
               <i class="fa fa-fw fa-user"></i> <span>Profile</span>
@@ -208,7 +204,7 @@
               </span>
             </a>
             <ul class="treeview-menu">
-              <li><a href="../../profile.html"><i class="fa fa-fw fa-newspaper-o"></i> General</a></li>
+              <li><a href="profile.html"><i class="fa fa-fw fa-newspaper-o"></i> General</a></li>
               <li><a href="#"><i class="fa fa-plane"></i> Experience(Coming Soon)</a></li>
               <li><a href="#"><i class="fa fa-trophy"></i> Certificate(Coming Soon)</a></li>
             </ul>
@@ -221,196 +217,216 @@
     <!-- =============================================== -->
   
     <!-- Content Wrapper. Contains page content -->
-    <div class="content-wrapper">
-      <!-- Content Header (Page header) -->
-      <section class="content-header">
-        <h1>
-          Home page
-        </h1>
-        <br>
-        <div class="tab-content">
-            <div class="tab-pane active" id="activity">
-              <!-- Post -->
-              <div class="post">
-                <div class="user-block">
-                  <img class="img-circle img-bordered-sm" src="img/user1-128x128.jpg" alt="user image">
-                      <span class="username">
-                        <a href="#">Jonathan Burke Jr.</a>
-                        <a href="#" class="pull-right btn-box-tool"><i class="fa fa-times"></i></a>
-                      </span>
-                  <span class="description">Shared publicly - 7:30 PM today</span>
+    <div class="content-wrapper" style="min-height: 901.2px;">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+          <h1>
+            My Profile
+          </h1>
+          <ol class="breadcrumb">
+            <li><a href="#"><i class="fa fa-fw fa-home"></i> Home</a></li>
+            <li><a href="#"><i class="fa fa-fw fa-user"></i>Profile</a></li>
+            <li class="active"><i class="fa fa-fw fa-newspaper-o"></i>General</li>
+          </ol>
+        </section>
+    
+        <!-- Main content -->
+        <section class="content">
+    
+          <div class="row">
+            <div class="col-md-3">
+    
+              <!-- Profile Image -->
+              <div class="box box-primary">
+                <div class="box-body box-profile">
+                  <img class="profile-user-img img-responsive img-circle" src="picture/profilepic.jpg" alt="User profile picture">
+    
+                  <h3 class="profile-username text-center">Phitchayarat Piraban</h3>
+    
+                  <p class="text-muted text-center">Computer Engineer</p>
+    
+                  <ul class="list-group list-group-unbordered">
+                    <li class="list-group-item">
+                      <b>Followers</b> <a class="pull-right">847</a>
+                    </li>
+                    <li class="list-group-item">
+                      <b>Following</b> <a class="pull-right">127</a>
+                    </li>
+                    <li class="list-group-item">
+                      <b>Friends</b> <a class="pull-right">2530</a>
+                    </li>
+                  </ul>
+    
+                  <a href="https://www.facebook.com/cloud.freed" class="btn btn-primary btn-block"><b>Follow</b></a>
                 </div>
-                <!-- /.user-block -->
-                <p>
-                  Lorem ipsum represents a long-held tradition for designers,
-                  typographers and the like. Some people hate it and argue for
-                  its demise, but others ignore the hate as they create awesome
-                  tools to help create filler text for everyone from bacon lovers
-                  to Charlie Sheen fans.
-                </p>
-                <ul class="list-inline">
-                  <li><a href="#" class="link-black text-sm"><i class="fa fa-share margin-r-5"></i> Share</a></li>
-                  <li><a href="#" class="link-black text-sm"><i class="fa fa-thumbs-o-up margin-r-5"></i> Like</a>
-                  </li>
-                  <li class="pull-right">
-                    <a href="#" class="link-black text-sm"><i class="fa fa-comments-o margin-r-5"></i> Comments
-                      (5)</a></li>
-                </ul>
-
-                <input class="form-control input-sm" type="text" placeholder="Type a comment">
+                <!-- /.box-body -->
               </div>
-              <!-- /.post -->
-
-              <!-- Post -->
-              <div class="post clearfix">
-                <div class="user-block">
-                  <img class="img-circle img-bordered-sm" src="img/user7-128x128.jpg" alt="User Image">
-                      <span class="username">
-                        <a href="#">Sarah Ross</a>
-                        <a href="#" class="pull-right btn-box-tool"><i class="fa fa-times"></i></a>
-                      </span>
-                  <span class="description">Sent you a message - 3 days ago</span>
+              <!-- /.box -->
+    
+              <!-- About Me Box -->
+              <div class="box box-primary">
+                <div class="box-header with-border">
+                  <h3 class="box-title">About Me</h3>
                 </div>
-                <!-- /.user-block -->
-                <p>
-                  Lorem ipsum represents a long-held tradition for designers,
-                  typographers and the like. Some people hate it and argue for
-                  its demise, but others ignore the hate as they create awesome
-                  tools to help create filler text for everyone from bacon lovers
-                  to Charlie Sheen fans.
-                </p>
-
-                <form class="form-horizontal">
-                  <div class="form-group margin-bottom-none">
-                    <div class="col-sm-9">
-                      <input class="form-control input-sm" placeholder="Response">
-                    </div>
-                    <div class="col-sm-3">
-                      <button type="submit" class="btn btn-danger pull-right btn-block btn-sm">Send</button>
-                    </div>
-                  </div>
-                </form>
+                <!-- /.box-header -->
+                <div class="box-body">
+                  <strong><i class="fa fa-book margin-r-5"></i> Education</strong>
+    
+                  <p class="text-muted">
+                    B.S. in Computer Engineer from Chiang Mai University
+                  </p>
+    
+                  <hr>
+    
+                  <strong><i class="fa fa-map-marker margin-r-5"></i> Location</strong>
+    
+                  <p class="text-muted">Chiang Mai, Thailand</p>
+    
+                  <hr>
+    
+                  <strong><i class="fa fa-pencil margin-r-5"></i> Skills</strong>
+    
+                  <p>
+                    <span class="label label-danger">Data Mining</span>
+                    <span class="label label-success">Java</span>
+                    <span class="label label-info">Web-developer</span>
+                    <span class="label label-warning">Python</span>
+                    <span class="label label-primary">Computer Hardware</span>
+                  </p>
+    
+                  <hr>
+    
+                  <strong><i class="fa fa-file-text-o margin-r-5"></i> Motto</strong>
+    
+                  <p>if you really want something you will find a way if not you will find an excuse</p>
+                </div>
+                <!-- /.box-body -->
               </div>
-              <!-- /.post -->
-
-              <!-- Post -->
-              <div class="post">
-                <div class="user-block">
-                  <img class="img-circle img-bordered-sm" src="img/user6-128x128.jpg" alt="User Image">
-                      <span class="username">
-                        <a href="#">Adam Jones</a>
-                        <a href="#" class="pull-right btn-box-tool"><i class="fa fa-times"></i></a>
-                      </span>
-                  <span class="description">Posted 5 photos - 5 days ago</span>
-                </div>
-                <!-- /.user-block -->
-                <div class="row margin-bottom">
-                  <div class="col-sm-6">
-                    <img class="img-responsive" src="img/photo1.png" alt="Photo">
-                  </div>
-                  <!-- /.col -->
-                  <div class="col-sm-6">
-                    <div class="row">
-                      <div class="col-sm-6">
-                        <img class="img-responsive" src="img/photo2.png" alt="Photo">
-                        <br>
-                        <img class="img-responsive" src="img/photo3.jpg" alt="Photo">
-                      </div>
-                      <!-- /.col -->
-                      <div class="col-sm-6">
-                        <img class="img-responsive" src="img/photo4.jpg" alt="Photo">
-                        <br>
-                        <img class="img-responsive" src="img/photo1.png" alt="Photo">
-                      </div>
-                      <!-- /.col -->
-                    </div>
-                    <!-- /.row -->
-                  </div>
-                  <!-- /.col -->
-                </div>
-                <!-- /.row -->
-
-                <ul class="list-inline">
-                  <li><a href="#" class="link-black text-sm"><i class="fa fa-share margin-r-5"></i> Share</a></li>
-                  <li><a href="#" class="link-black text-sm"><i class="fa fa-thumbs-o-up margin-r-5"></i> Like</a>
-                  </li>
-                  <li class="pull-right">
-                    <a href="#" class="link-black text-sm"><i class="fa fa-comments-o margin-r-5"></i> Comments
-                      (5)</a></li>
-                </ul>
-
-                <input class="form-control input-sm" type="text" placeholder="Type a comment">
-              </div>
-              <!-- /.post -->
+              <!-- /.box -->
             </div>
+            <!-- /.col -->
+            <div class="col-md-9">
+              <div class="nav-tabs-custom">
+                <ul class="nav nav-tabs">
+                  <!-- <li class="active"><a href="#activity" data-toggle="tab" aria-expanded="true">Activity</a></li> -->
+                  <li class=""><a href="#timeline" data-toggle="tab" aria-expanded="false">Gallery</a></li>
+                  <li class=""><a href="#settings" data-toggle="tab" aria-expanded="false">Contact</a></li>
+                </ul>
+                <div class="tab-content">
 
-            <div class="tab-pane" id="settings">
-              <form class="form-horizontal">
-                <div class="form-group">
-                  <label for="inputName" class="col-sm-2 control-label">Name</label>
-
-                  <div class="col-sm-10">
-                    <input type="email" class="form-control" id="inputName" placeholder="Name">
+                  <div class="tab-pane" id="timeline">
+                    <!-- The timeline -->
+                    <h1 align="center">My Computer Timeline</h1>
+                    <br>
+                    <table width="80%" align="center" border="1px" style="padding: 20px;  border:1px;">
+           
+                        <tbody><tr align="center">
+                            <td><img src="picture/WindowMe.jpg" alt="" height="200px" width="200px"></td>
+                            <td><img src="picture/pentium4.jpg" alt="" height="200px" width="200px"></td>
+                            <td><img src="picture/icantfind.jpg" alt="" height="200px" width="200px"></td>
+                            <td><img src="picture/ram256.jpg" alt="" height="200px" width="200px"></td>
+                        </tr>
+                        <tr align="center">
+                            <td>Window ME</td>
+                            <td>Pentium 4</td>
+                            <td>On-Board GraphicCard</td>
+                            <td>Ram 256 MB</td>
+                        </tr>
+                        <tr align="center">
+                            <td><img src="picture/WindowXP.jpg" alt="" height="200px" width="200px"></td>
+                            <td><img src="picture/core2duo.png" alt="" height="200px" width="200px"></td>
+                            <td><img src="picture/icantfind.jpg" alt="" height="200px" width="200px"></td>
+                            <td><img src="picture/ram2GB.jpg" alt="" height="200px" width="200px"></td>
+                        </tr>
+                        <tr align="center">
+                            <td>Window XP</td>
+                            <td>Intel Core2Duo</td>
+                            <td>On-Board GraphicCard</td>
+                            <td>Ram 2GB</td>
+                        </tr>
+                        <tr align="center">
+                            <td><img src="picture/Win10Pro.jpg" alt="" height="200px" width="200px"></td>
+                            <td><img src="picture/i5.jpg" alt="" height="200px" width="200px"></td>
+                            <td><img src="picture/rtx2080.jpg" alt="" height="200px" width="200px"></td>
+                            <td><img src="picture/ram16GB.jpg" alt="" height="200px" width="200px"></td>
+                        </tr>
+                        <tr align="center">
+                            <td>Window 10 Pro</td>
+                            <td>Intel I5-8600K</td>
+                            <td>RTX 2080 ti</td>
+                            <td>Ram 16GB</td>
+                        </tr>
+                       
+                        </tbody></table>
                   </div>
-                </div>
-                <div class="form-group">
-                  <label for="inputEmail" class="col-sm-2 control-label">Email</label>
-
-                  <div class="col-sm-10">
-                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                  <!-- /.tab-pane -->
+    
+                  <div class="tab-pane" id="settings">
+                    <form class="form-horizontal">
+                      <div class="form-group">
+                        <label for="inputName" class="col-sm-2 control-label">Name</label>
+    
+                        <div class="col-sm-10">
+                          <input type="email" class="form-control" id="inputName" placeholder="Name">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="inputEmail" class="col-sm-2 control-label">Email</label>
+    
+                        <div class="col-sm-10">
+                          <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="inputPhone" class="col-sm-2 control-label">Phone</label>
+    
+                        <div class="col-sm-10">
+                          <input type="number" class="form-control" id="inputPhone" placeholder="Skills">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="inputSubject" class="col-sm-2 control-label">Subject</label>
+    
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control" id="inputSubject" placeholder="Subject">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="inputNote" class="col-sm-2 control-label">Note</label>
+    
+                        <div class="col-sm-10">
+                          <textarea class="form-control" id="inputNote" placeholder="Note"></textarea>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                          <div class="checkbox">
+                            <label>
+                              <input type="checkbox"> I agree to the <a href="#">terms and conditions</a>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                          <button type="submit" class="btn btn-danger">Submit</button>
+                        </div>
+                      </div>
+                    </form>
                   </div>
+                  <!-- /.tab-pane -->
                 </div>
-                <div class="form-group">
-                  <label for="inputPhone" class="col-sm-2 control-label">Phone</label>
-
-                  <div class="col-sm-10">
-                    <input type="number" class="form-control" id="inputPhone" placeholder="Skills">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="inputSubject" class="col-sm-2 control-label">Subject</label>
-
-                  <div class="col-sm-10">
-                    <input type="text" class="form-control" id="inputSubject" placeholder="Subject">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="inputNote" class="col-sm-2 control-label">Note</label>
-
-                  <div class="col-sm-10">
-                    <textarea class="form-control" id="inputNote" placeholder="Note"></textarea>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <div class="col-sm-offset-2 col-sm-10">
-                    <div class="checkbox">
-                      <label>
-                        <input type="checkbox"> I agree to the <a href="#">terms and conditions</a>
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <div class="col-sm-offset-2 col-sm-10">
-                    <button type="submit" class="btn btn-danger">Submit</button>
-                  </div>
-                </div>
-              </form>
+                <!-- /.tab-content -->
+              </div>
+              <!-- /.nav-tabs-custom -->
             </div>
-            <!-- /.tab-pane -->
+            <!-- /.col -->
           </div>
-        <ol class="breadcrumb">
-          <li><a href="#"><i class="fa fa-fw fa-home"></i> Home</a></li>
-        </ol>
-      </section>
-  
-      <!-- Main content -->
-      <section class="content">
-  
-      </section>
-      <!-- /.content -->
-    </div>
-    <!-- /.content-wrapper -->
+          <!-- /.row -->
+    
+        </section>
+        <!-- /.content -->
+      </div>
   
     <footer class="main-footer">
       <div class="pull-right hidden-xs">
